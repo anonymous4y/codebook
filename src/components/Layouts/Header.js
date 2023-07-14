@@ -1,6 +1,6 @@
+import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import Logo from "../../assets/logo.png"
-import { useEffect, useState } from "react"
 import { Search } from "../Sections/Search"
 import { DropdownLoggedOut, DropdownLoggedIn } from '../index'
 import { useCart } from "../../context"
